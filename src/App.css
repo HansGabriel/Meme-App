@@ -3,16 +3,67 @@
   text-align: center;
 }
 
-.selected{
-  background: linear-gradient(to right, #74ebd5, #acb6e5) !important;
+.header {
+  padding: 60px;
+  text-align: center;
+  background: #1abc9c;
+  color: white;
+  font-size: 30px;
 }
 
-.options {
-  padding: 8px;
-  border: 2px solid #000;
+.title {
+  text-align: center;
+}
+
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.image {
+  width: 50%;
+  height: 50%;
+}
+
+
+.top {
+  position: absolute;
+  top: 2%;
+  left: 50%;
+  font-size: 50px;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.bottom {
+  position: absolute;
+  bottom: 2%;
+  left: 50%;
+  font-size: 50px;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 100%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
   cursor: pointer;
 }
 
-ul {
-  list-style-type: none;
+input[type=submit]:hover {
+  background-color: #45a049;
 }

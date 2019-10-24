@@ -1,13 +1,15 @@
 import React from 'react';
-import Quiz from './components/Quiz'
+import Header from './components/Header';
+import MemeGenerator from './components/MemeGenerator';
 import './App.css';
 
-function App() {
+function App(){
   return (
-    <div className="App">
-      <Quiz />
+    <div>
+      <Header />
+      <MemeGenerator />
     </div>
-  );
+  )
 }
 
 export default App;
